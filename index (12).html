@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAZYNUKES</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <header>
+            <h1>EAZYNUKES</h1>
+        </header>
+        <main>
+            <section class="item-picture">
+                <img src="https://i.ibb.co/rmc5LLh/Screenshot-2024-07-18-09-51-22-77.png" alt="EAZYNUKES" width="30%" height="30%">
+            </section>
+            <section class="item-bout-me">
+                <h2>About Us</h2>
+                <p>EazyNukes is a service that allows you to destroy any server within few seconds its not a raiding bot, we provide Complete powerful nuke service that you maybe cant find anywhere since its a quality bot at free price, however i am paying for the hosting of the bot still i just pubpished this as dark charity, its free to use i am earning nothing through it. But if the idea succeed i will earn through it too but indirectly i dont want you to pay for just a discord bot not like premium or weird tools Something its free for all.</p>
+            </section>
+            <section class="item-descriptions">
+                <h2>Functions</h2>
+                <p>• Massban</p>
+                <p>• DeleteChannels</p>
+                <p>• DeleteRoles</p>
+                <p>• DeleteStickers</p>
+                <p>• DeleteEmojis</p>
+                <p>• DeleteCategories</p>
+            </section>
+            <section class="item-documentary">
+                <h2>Documentary</h2>
+                <h1>Nuke Bot</h1>
+                <p>This repository contains a Discord bot with various "nuke" functionalities. Each function can be used individually or all together by using the <code>index.js</code> file. These functionalities include banning members, deleting channels, deleting roles, deleting emojis, and deleting stickers.</p>
+
+                <h2>Features</h2>
+                <ul>
+                    <li><strong>Mass Ban</strong>: Bans random members from the server.</li>
+                    <li><strong>Delete Channels</strong>: Deletes all channels in the server one by one.</li>
+                    <li><strong>Delete Roles</strong>: Deletes all roles that are below the bot's highest role.</li>
+                    <li><strong>Delete Emojis</strong>: Deletes all custom emojis from the server.</li>
+                    <li><strong>Delete Stickers</strong>: Deletes all custom stickers from the server.</li>
+                </ul>
+
+                <h2>Installation</h2>
+                <ol>
+                    <li>Clone the repository</li>
+                    <li>Install the necessary dependencies:
+                        <pre><code>npm install discord.js</code></pre>
+                    </li>
+                    <li>Replace <code>'TokenHere'</code> in each module file with your actual bot token.</li>
+                </ol>
+
+                <h2>Usage</h2>
+
+                <h3>Running Individual Modules</h3>
+                <p>Each functionality is implemented in a separate file inside the <code>Modules</code> directory. You can run each file individually if you only need a specific function.</p>
+                <p>For example, to run the <code>MassBan</code> functionality:
+                    <pre><code>node Modules/MassBan.js</code></pre>
+                </p>
+
+                <h3>Running All Modules Together</h3>
+                <p>To run all functionalities together, use the <code>index.js</code> file. This will load and execute all modules in the <code>Modules</code> directory.
+                    <pre><code>node index.js</code></pre>
+                </p>
+
+                <h2>File Structure</h2>
+                <pre><code>nuke-bot/
+                ├── index.js
+                ├── README.md
+                └── Modules/
+                    ├── MassBan.js
+                    ├── DeleteChannels.js
+                    ├── Roles.js
+                    ├── Emojis.js
+                    └── Stickers.js
+                </code></pre>
+
+                <h2>Important Notes</h2>
+                <ul>
+                    <li>Ensure your bot has the necessary permissions for each functionality (e.g., <code>BAN_MEMBERS</code>, <code>MANAGE_CHANNELS</code>, <code>MANAGE_ROLES</code>, <code>MANAGE_EMOJIS_AND_STICKERS</code>).</li>
+                    <li>Use these scripts responsibly. They can cause significant changes to your Discord server.</li>
+                </ul>
+
+                <h2>
+                    Repository:
+                </h2><p>https://github.com/PurpleBeastPage/Discord-Nuke-Bot-Modules-.git</p>
+
+                <h2>License</h2>
+                <p>This project is licensed under the MIT License. See the <code>LICENSE</code> file for details.</p>
+            </section>
+            <section class="item-join">
+                <p>Join our server!</p>
+                <button onclick="window.location.href='join.html'">Join</button>
+            </section>
+            <section class="item-add">
+                <p>Add the bot to your server</p>
+                <button onclick="window.location.href='https://discord.com/oauth2/authorize?client_id=1260495723393450004&permissions=8&integration_type=0&scope=bot'">Add</button>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
